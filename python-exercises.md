@@ -283,6 +283,7 @@ Print each sentence properly cut-off, example:
 ```
 
 ```python
+limit = 80
 ellipsis = "…"
 sentences = [
     "In the serene beauty of the moonlit night, the stars sparkled like diamonds, casting a gentle glow upon the tranquil lake below, where the world seemed to find solace.",
@@ -310,6 +311,8 @@ Example:
 # The new code should print this instead:
 "Amidst the chaos, a single act of kindness can illuminate even the darkest of…"
 ```
+
+Hint: You can use the string method `.rfind()` which is like `.find()` but searches backwards in a string ;)
 
 ### Command Line Arguments
 
