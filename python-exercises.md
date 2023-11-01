@@ -257,4 +257,4 @@ Date: {timestamp}
 {diary_entry}
 ```
 
-4. After adding an entry, ask the user if they want to add another entry or view their previous entries.
+4. After adding an entry, ask the user if they want to add another entry.
