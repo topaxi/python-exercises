@@ -90,8 +90,9 @@ Write a program that calculates the sum of all integers from 1 to a user-specifi
 
 ### Reverse a List
 
-Given [1, 2, 3, 4], it should return [4, 3, 2, 1].
-Given ['a', 'b', 'c'], it should return ['c', 'b', 'a'].
+Given `[1, 2, 3, 4]`, it should return `[4, 3, 2, 1]`.
+
+Given `['a', 'b', 'c']`, it should return `['c', 'b', 'a']`.
 
 ### Update List in Place
 
