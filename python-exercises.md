@@ -29,7 +29,7 @@ for fruit in fruits:
 fruits = ["apple", "pineapple", "raspberry", "strawberry", "mango", "passionfruit"]
 
 for a, b in enumerate(fruits):
-    print(f"{a} {b})
+    print(f"{a} {b}")
 ```
 
 ```python
