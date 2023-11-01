@@ -44,6 +44,55 @@ print(b)
 print(a)
 ```
 
+### List Operations Puzzle
+
+Given the following list and sequence of operations, try to guess the final state of the list after each operation:
+
+If you do not know one of the list methods, try to look them up in your editor or google, before giving your final guess :)
+
+```python
+my_list = [1, 2, 3, 4, 5]
+
+# Operation 1
+my_list.append(6)
+
+# Operation 2
+my_list.insert(2, 7)
+
+# Operation 3
+my_list.pop(4)
+
+# Operation 4
+sliced_list = my_list[1:4]
+
+# Operation 5
+my_list.extend([8, 9])
+
+# Operation 6
+my_list.remove(2)
+```
+
+### Dictionary Lookups
+
+```python
+sentence = "The quick brown fox jumps over the lazy dog"
+
+words = sentence.split()
+characters = list(sentence)
+
+word_lengths = {}
+
+for word in words:
+    word_lengths[word] = len(word)
+
+jumps_length = word_lengths["jumps"]
+print("Length of 'jumps':", jumps_length)
+
+is_elephant_present = "elephant" in word_lengths
+print("Is 'elephant' present in the dictionary?", is_elephant_present)
+
+```
+
 ## Finding Bugs
 
 Find common errors/issues, if you do not see the error straight away, you may also run it in a python shell or editor, try to spot or guess the error first though :)
@@ -197,6 +246,22 @@ Write a Python program that reads a text file and counts the number of words in 
 Similar to the previous exercise, but instead count each occurrence of a word seperately and print how many times each word was found within the text file.
 
 Bonus: Sort the output by the amount of times a word was found.
+
+### Sentence Split and Dictionary Lookups
+
+Given the following sentence as a string:
+
+```python
+sentence = "The quick brown fox jumps over the lazy dog"
+```
+
+Perform the following operations:
+
+1. Split the sentence into words and store them in a list.
+1. Split the sentence into individual characters and store them in a list.
+1. Create a dictionary where the keys are words from the sentence, and the values are the lengths of those words.
+1. Use the dictionary to look up and print the length of the word "quick".
+1. Check if the word "fox" exists in the dictionary and print the result.
 
 ### Print a leaderboard
 
