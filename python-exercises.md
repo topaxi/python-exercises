@@ -32,6 +32,8 @@ for a, b in enumerate(fruits):
     print(f"{a} {b}")
 ```
 
+I think you have not seen this yet, no to worry, but can you guess what this _could_ do?
+
 ```python
 fruits = ["apple", "pineapple", "raspberry", "strawberry", "mango", "passionfruit"]
 
