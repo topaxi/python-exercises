@@ -68,6 +68,19 @@ message = 'Hi Upsi."
 print(message)
 ```
 
+```python
+count = 0
+while count < 5
+    print("Count:", count)
+    count += 1
+```
+
+```python
+count = 0
+while count >= 5:
+    print("Count:", count)
+```
+
 Guess what output of the next program should be, there is a bug hidden, what are some options to fix it?
 
 ```python
