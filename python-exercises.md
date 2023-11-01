@@ -247,6 +247,70 @@ new_sentence_tokens = ["NN", "JJ", "NN", "VB", "NN", "NNP", "NN"]
 # Print the updated POS tag counts
 ```
 
+### Domain from Email
+
+Given a list of emails, uniquely print all the different domains.
+
+```python
+emails = [
+    "john.doe@example.com",
+    "jane.smith@gmail.com",
+    "michael.jackson@yahoo.com",
+    "susan.williams@outlook.com",
+    "david.jones@hotmail.com",
+    "emily.davis@gmail.com",
+    "robert.white@yahoo.com",
+    "laura.miller@example.com",
+    "william.brown@hotmail.com",
+    "olivia.wilson@outlook.com"
+]
+```
+
+### Ellipsis
+
+You are given a list of sentences, to be used in a small window. This window only displays up to 80 characters and the text should be cut off at the last character.
+
+Strip any whitespace character from the cut-off sentence before printing the ellipsis.
+
+Print each sentence properly cut-off, example:
+
+```python
+# A string like this
+"In the quiet forest, the leaves rustled as the wind whispered secrets among the trees."
+
+# Should print this
+"In the quiet forest, the leaves rustled as the wind whispered secrets among the…"
+```
+
+```python
+ellipsis = "…"
+sentences = [
+    "In the serene beauty of the moonlit night, the stars sparkled like diamonds, casting a gentle glow upon the tranquil lake below, where the world seemed to find solace.",
+    "The sun set over the horizon, painting the sky in shades of pink and orange.",
+    "In the quiet forest, the leaves rustled as the wind whispered secrets among the trees.",
+    "She gazed at the old photo, reminiscing about the good times with a bittersweet smile.",
+    "The waves crashed against the rocky shore, their rhythmic sound calming the soul.",
+    "The ancient oak tree, with its gnarled branches, stood tall and proud in the heart of the forest, a silent guardian of the woods.",
+    "As the city lights twinkled, he felt a sense of belonging in the bustling streets.",
+    "Amidst the chaos, a single act of kindness can illuminate even the darkest of times.",
+    "The ancient castle stood in silent grandeur, a testament to a bygone era.",
+]
+
+# Cut and print out sentences up to 80 characters
+```
+
+Bonus: Instead of cutting of at the specific character index, cut off after the last word within the first 80 characters.
+
+Example:
+
+```python
+# Instead of printing
+"Amidst the chaos, a single act of kindness can illuminate even the darkest of ti…"
+
+# The new code should print this instead:
+"Amidst the chaos, a single act of kindness can illuminate even the darkest of…"
+```
+
 ### Command Line Arguments
 
 Write a Python script that accepts command line arguments using sys.argv. For example, create a program that calculates the sum of two numbers provided as arguments.
