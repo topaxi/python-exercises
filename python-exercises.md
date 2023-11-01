@@ -2,6 +2,8 @@
 
 ## Reading Code
 
+Guess what each of these code snippets output, you can verify your guess by running it in a python shell or editor.
+
 ```python
 fruits = ["apple", "pineapple", "raspberry", "strawberry", "mango", "passionfruit"]
 
