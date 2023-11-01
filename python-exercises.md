@@ -46,6 +46,28 @@ print(a)
 
 ## Finding Bugs
 
+Find common errors/issues, if you do not see the error straight away, you may also run it in a python shell or editor, try to spot or guess the error first though :)
+
+```
+for i in range(5)
+    print(i)
+```
+
+```
+x = y + 5
+print(x)
+```
+
+```
+if = 10
+print(if)
+```
+
+```
+message = 'Hi Upsi."
+print(message)
+```
+
 Guess what output of the next program should be, there is a bug hidden, what are some options to fix it?
 
 ```python
