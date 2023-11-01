@@ -90,7 +90,43 @@ print("Length of 'jumps':", jumps_length)
 
 is_elephant_present = "elephant" in word_lengths
 print("Is 'elephant' present in the dictionary?", is_elephant_present)
+```
 
+### NLTK example
+
+```python
+import nltk
+from nltk.corpus import stopwords
+from nltk.tokenize import word_tokenize
+from collections import Counter
+
+nltk.download('punkt')
+nltk.download('stopwords')
+
+text = """
+Natural Language Processing (NLP) is a fascinating field that focuses on the interaction between humans and computers using natural language. It involves the development of algorithms and models to enable machines to understand, interpret, and generate human language.
+
+NLP has numerous applications, such as sentiment analysis, chatbots, language translation, and more. In this exercise, you will explore a basic NLP task: counting word frequencies.
+
+Your task is to count the frequency of words in the given text. First, tokenize the text into words. Then, convert the words to lowercase and remove common stopwords. Finally, count and display the frequency of each word.
+
+NLP has a wide range of tools and libraries to work with, and NLTK is one of the most popular ones. It provides various resources and functionalities for text analysis. Remember to install NLTK if you haven't already and download the required data.
+
+Feel free to experiment with different texts and explore the world of NLP further. Enjoy the exercise!
+"""
+
+words = word_tokenize(text)
+stop_words = set(stopwords.words('english'))
+filtered_words = []
+
+for word in words:
+    if word.isalnum() and word.lower() not in stop_words:
+        filtered_words.append(word.lower())
+
+word_count = Counter(filtered_words)
+
+for word, count in word_count.items():
+    print(f"{word}: {count}")
 ```
 
 ## Finding Bugs
