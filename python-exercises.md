@@ -224,6 +224,29 @@ print(f"I found {vowel_count} vowels!")
 
 Create a program that takes a sentence as input, splits it into words, and then joins the words into a single string with hyphens between them.
 
+### Updating a dictionary
+
+Given an aggregated POS tag counter, update the counters with a new list of tokens.
+Print out the newly updated tag counters in the format of `NN: 20` for each tag.
+
+```python
+pos_tags = {
+    "NN": 15,
+    "NNP": 8,
+    "VB": 10,
+    "JJ": 7,
+    "RB": 5
+}
+
+# Sample pre-tokenized sentence
+new_sentence_tokens = ["NN", "JJ", "NN", "VB", "NN", "NNP", "NN"]
+
+# Update the counts in the dictionary using the new sentence tokens
+
+
+# Print the updated POS tag counts
+```
+
 ### Command Line Arguments
 
 Write a Python script that accepts command line arguments using sys.argv. For example, create a program that calculates the sum of two numbers provided as arguments.
